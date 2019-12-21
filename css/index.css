@@ -3,7 +3,7 @@
 * { box-sizing: border-box; }
 html { width: 100%; height: 100%; margin: auto; padding: 0; }
 body { width: 100%; height: 100%; padding: 0; margin: 0; background-color: #297E00;  display: flex; flex-direction: column; }
-header { display: block; background-color: #DC143B; margin: 0; }
+header { display: block;  margin: 0; background: url('https://picsum.photos/1500/200'); }
 h1 { margin: 0; padding: 0.5rem 2rem; width: 100%; text-align: center; font-size: 4.5rem; font-weight: bold; color: #D5F56C; }
 h2 { color: #DC143B; margin: 0; padding: 2rem 0 0 3rem; font-size: 1.75rem;}
 nav { display: block; background-color: #88001B; padding: 0 1.5rem; margin: 0; }
@@ -11,7 +11,7 @@ ul { list-style-type: none; padding: 0; display: flex; flex-direction: row; just
 li { display: block; padding: 1.25rem 4.5rem; margin: 0; font-weight: bold; font-size: 2rem; }
 section { background-color: #8DE364; width: 90%; height: 100%; margin: auto; overflow: auto; }
 p { font-size: 1.25rem; margin: 0; padding: 1rem; text-align: justify; }
-footer { background-color: #006045; color: white; position:fixed; left:0px; bottom:0px; width: 100%; }
+footer { background-color: #006045; color: white; width: 100%; }
 footer p { text-align: center; width: 100%; margin-top: auto; }
 p, li, a, form, input { font-family: 'Itim', cursive; }
 h1, label, h2 { font-family: 'Baloo', cursive; }
@@ -23,3 +23,5 @@ input[type=submit] { background-color: #0E9B74; color: white; padding: 12px 20px
 input[type=submit]:hover { background-color: #006045; }
 .container { padding: 1rem; }
 label { color: #006045; font-size: 1.25rem; }
+.imgLeft { float: right;  display: block; margin: 0.25rem; border-radius: 0.5rem; }
+.imgCenter { margin: auto; display: block; border-radius: 1rem; }
