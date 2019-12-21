@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-
+        <link href="css/index.css" media="screen" type="text/css" rel="stylesheet">
     </head>
     <body>
         <header>
@@ -9,18 +9,25 @@
         </header>
         <nav>
             <ul>
-                <li>consectetur</li>
-                <li>adipiscing</li>
-                <li>elit</li>
+                <li><a href="index.html">Principal</a></li>
+                <li><a href="acerca.html">Acerca de</a></li>
+                <li><a href="">Contacto</a></li>
             </ul>
         </nav>
         <section>
-            <form>
-                Vestibulum <input type="text"><br>
-                Vestibulum <input type="email"><br>
-                Integer <br>
-                <input type="text" aria-multiline="true">
-            </form>
+            <h2>Contacto</h2>
+            <p>Vestibulum neque dui, dapibus vel lectus nec, egestas hendrerit tortor. Mauris dignissim hendrerit dolor vitae mattis. Mauris massa eros, aliquet eget lobortis sit amet, accumsan mattis ante.</p>
+            <div class="container">
+                <form>
+                  <label for="fname">Nombre</label>
+                  <input type="text" id="fname" name="firstname" placeholder="Nombre">
+                  <label for="lname">Correo</label>
+                  <input type="email" id="lname" name="lastname" placeholder="email@example.com">            
+                  <label for="subject">Mensaje</label>
+                  <textarea id="subject" name="subject" placeholder="Escribe algo..."></textarea>
+                  <input type="submit" value="Enviar">
+                </form>
+              </div> 
         </section>
         <footer>
             <p> Nam dictum, erat ut egestas blandit </p>
